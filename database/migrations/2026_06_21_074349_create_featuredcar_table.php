@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('titleDetail2');
             $table->string('iconDetail3');
             $table->string('titleDetail3');
-            $table->integerIncrements('price');
+            $table->integer('price');
             $table->text('address');
             $table->timestamps();
         });

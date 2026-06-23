@@ -11,17 +11,17 @@
 <title>Trang quản trị toyota</title>
 
 <!-- Style css -->
-<link href="{{'admins/assets/css/style.css'}}" rel="stylesheet" />
-<link href="{{'admins/assets/css/dark.css'}}" rel="stylesheet" />
+<link href="{{'/admins/assets/css/style.css'}}" rel="stylesheet" />
+<link href="{{'/admins/assets/css/dark.css'}}" rel="stylesheet" />
 <!--Sidemenu css -->
-<link href="{{'admins/assets/plugins/sidemenu/sidemenu.css'}}" rel="stylesheet">
+<link href="{{'/admins/assets/plugins/sidemenu/sidemenu.css'}}" rel="stylesheet">
 <!-- P-scroll bar css-->
-<link href="{{'admins/assets/plugins/p-scrollbar/p-scrollbar.css'}}" rel="stylesheet" />
+<link href="{{'/admins/assets/plugins/p-scrollbar/p-scrollbar.css'}}" rel="stylesheet" />
 <!---Icons css-->
-<link href="{{'admins/assets/plugins/web-fonts/icons.css'}}" rel="stylesheet" />
-<link href="{{'admins/assets/plugins/web-fonts/font-awesome/font-awesome.min.css'}}" rel="stylesheet">
-<link href="{{'admins/assets/plugins/web-fonts/plugin.css'}}" rel="stylesheet" />
+<link href="{{'/admins/assets/plugins/web-fonts/icons.css'}}" rel="stylesheet" />
+<link href="{{'/admins/assets/plugins/web-fonts/font-awesome/font-awesome.min.css'}}" rel="stylesheet">
+<link href="{{'/admins/assets/plugins/web-fonts/plugin.css'}}" rel="stylesheet" />
 <!-- Switcher css-->
-<link id="theme" href="{{'admins/assets/skins/hor-skin/skin.html'}}" rel="stylesheet" />
-<link href="{{'admins/assets/switcher/css/switcher.css'}}" rel="stylesheet" />
-<link href="{{'admins/assets/switcher/demo.css'}}" rel="stylesheet" />
+<link id="theme" href="{{'/admins/assets/skins/hor-skin/skin.html'}}" rel="stylesheet" />
+<link href="{{'/admins/assets/switcher/css/switcher.css'}}" rel="stylesheet" />
+<link href="{{'/admins/assets/switcher/demo.css'}}" rel="stylesheet" />

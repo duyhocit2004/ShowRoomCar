@@ -2,11 +2,11 @@
 				<div class="app-sidebar__user">
 					<div class="dropdown user-pro-body text-center">
 						<div class="user-pic">
-							<img src="assets/images/users/16.jpg" alt="user-img" class="avatar-xl rounded-circle mb-1">
+							<img src="{{ auth()->user()?->image }}" alt="user-img" class="avatar-xl rounded-circle mb-1">
 						</div>
 						<div class="user-info">
-							<h6 class=" mb-1 text-dark">John Thomson</h6>
-							<span class="text-muted app-sidebar__user-name text-sm">App Developer</span>
+							<h6 class=" mb-1 text-dark">{{ auth()->user()?->name  ?? 'Không xác định' }}</h6>
+							<span class="text-muted app-sidebar__user-name text-sm">{{ auth()->user()?->role === 'admin'  ? 'Quản trị viên' : 'không xác định' }}</span>
 						</div>
 					</div>
 				</div>
@@ -16,11 +16,7 @@
 								class="side-menu__icon fe fe-monitor"></i><span
 								class="side-menu__label">Dashboard</span><i class="angle fa fa-angle-right"></i></a>
 						<ul class="slide-menu">
-							<li><a class="slide-item" href="index.html"><span>Dashboard 01</span></a></li>
-							<li><a class="slide-item" href="index2.html"><span>Dashboard 02</span></a></li>
-							<li><a class="slide-item" href="index3.html"><span>Dashboard 03</span></a></li>
-							<li><a class="slide-item" href="index4.html"><span>Dashboard 04</span></a></li>
-							<li><a class="slide-item" href="index5.html"><span>Dashboard 05</span></a></li>
+							<li><a class="slide-item" href="index.html"><span>Bảng thống kê</span></a></li>
 						</ul>
 					</li>
 					<li class="slide">
