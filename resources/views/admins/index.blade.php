@@ -154,7 +154,7 @@
 	<!--js-->
 
 	@include('admins.layout.js')
-
+	@stack('scripts')
 </body>
 
 <!-- Mirrored from laravel.spruko.com/clont/Leftmenu-Icon-LightSidebar-ltr/index2 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jun 2026 08:13:12 GMT -->

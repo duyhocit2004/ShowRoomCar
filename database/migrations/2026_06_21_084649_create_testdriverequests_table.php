@@ -15,11 +15,12 @@ return new class extends Migration
             $table->id();
             $table->string('name',50);
             $table->string('phone',10);
-            $table->string('email',10);
-            $table->string('car',10);
-            $table->string('dateTest',10);
+            $table->string('email',150);
+            $table->string('car',100);
+            $table->dateTime('dateTest');
             $table->foreignId('testDriveMethod_id')->constrained('testdrivemethod')->onDelete('cascade');
             $table->string('note',200);
+            $table->string('status',30);
             $table->timestamps();
         });
     }

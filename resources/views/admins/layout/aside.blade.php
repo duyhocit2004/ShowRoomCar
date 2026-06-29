@@ -14,29 +14,19 @@
 					<li class="slide">
 						<a class="side-menu__item" data-toggle="slide" href="index-2.html#"><i
 								class="side-menu__icon fe fe-monitor"></i><span
-								class="side-menu__label">Dashboard</span><i class="angle fa fa-angle-right"></i></a>
+								class="side-menu__label">Thống kê</span><i class="angle fa fa-angle-right"></i></a>
 						<ul class="slide-menu">
-							<li><a class="slide-item" href="index.html"><span>Bảng thống kê</span></a></li>
+							<li><a class="slide-item" href="index.html"><span>Bảng thống kê chi tiết</span></a></li>
 						</ul>
 					</li>
 					<li class="slide">
 						<a class="side-menu__item" data-toggle="slide" href="index-2.html#"><i
-								class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Apps</span><i
+								class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Danh sách đăng ký</span><i
 								class="angle fa fa-angle-right"></i></a>
 						<ul class="slide-menu">
-							<li><a href="cards.html" class="slide-item"> Cards design</a></li>
-							<li><a href="cards-image.html" class="slide-item"> Image Cards design</a></li>
+							<li><a href="cards.html" class="slide-item">Đăng ký sửa xe</a></li>
+							<li><a href="{{ route('ListRegister') }}" class="slide-item">Đăng ký tư vấn</a></li>
 							<li><a href="chat.html" class="slide-item">Default Chat</a></li>
-							<li><a href="calendar.html" class="slide-item"> Default calendar</a></li>
-							<li><a href="calendar2.html" class="slide-item">Full calendar</a></li>
-							<li><a href="notify.html" class="slide-item"> Notifications</a></li>
-							<li><a href="sweetalert.html" class="slide-item"> Sweet alerts</a></li>
-							<li><a href="rangeslider.html" class="slide-item"> Range slider</a></li>
-							<li><a href="scroll.html" class="slide-item"> Content Scroll bar</a></li>
-							<li><a href="counters.html" class="slide-item"> Counters</a></li>
-							<li><a href="loaders.html" class="slide-item"> Loaders</a></li>
-							<li><a href="time-line.html" class="slide-item"> Time Line</a></li>
-							<li><a href="rating.html" class="slide-item"> Rating</a></li>
 						</ul>
 					</li>
 					<li>

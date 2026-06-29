@@ -414,7 +414,7 @@
     </div>`).join('');
         }
         function filterCars(cat, btn) {
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.filter-btn').   rEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             renderCars(cat);
         }
