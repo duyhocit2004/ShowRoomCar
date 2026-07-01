@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Http\Controllers\Admins;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class ProductController extends Controller
+{
+    public function RenderProduct(){
+        return view('admins.product.ListProduct');
+    }
+}

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Table;
 use Illuminate\Database\Eloquent\Model;
 
-#[Fillable(['name'])]
+#[Fillable(['name','status'])]
 #[Table('testdrivemethod')]
 class TestDriverMethodModel extends Model
 {
